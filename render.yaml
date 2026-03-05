@@ -40,7 +40,3 @@ services:
         sync: false
       - key: FACEBOOK_REDIRECT_URI
         sync: false
-    disks:
-      - name: uploads
-        mountPath: /opt/render/project/src/uploads
-        sizeGB: 1
